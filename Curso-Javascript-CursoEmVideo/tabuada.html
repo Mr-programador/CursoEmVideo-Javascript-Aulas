@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tabuada</title>
+</head>
+
+<body>
+    <header>
+        <p>Tabuada</p>
+    </header>
+
+    <section>
+        <div>
+            <p>Número: <input type="number" name="num" id="txtn" placeholder="Digite um número">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+            </p>
+        </div>
+
+        <div class="ident">
+            <select name="tabuada" id="seltab" size="10">
+                <!-- 
+                    Outra forma de fazer é escrevendo no HTML os <option>s
+                    <option value="v1"> Valor1 </option>
+                -->
+                <option>Digite um número acima</option>
+            </select>
+        </div>
+        <button>
+            <a href="index.html">Voltar</a>
+        </button>
+    </section>
+    <footer>
+        <p>&copy; Mr.programador</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

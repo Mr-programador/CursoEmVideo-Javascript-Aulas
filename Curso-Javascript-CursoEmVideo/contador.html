@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Contador</title>
+</head>
+
+<body>
+    <header>
+        <p>Contador</p>
+    </header>
+
+    <section>
+        <div class="ident">
+            <p>Inicio da Contagem:<input type="number" name="ini" id="ini" placeholder="Número Inicial" max="9999"></p>
+            </br>
+            <P>Final da Contagem:<input type="number" name="fin" id="fin" placeholder="Número Final" max="10000"></p>
+            </br>
+            <p>Número do Passo:<input type="number" name="pas" id="pas" placeholder="Pular" max="10000"></p></br>
+            <input type="button" value="Contar" onclick="contador()">
+        </div>
+        <div id="cont">
+            preparando a contagem...
+        </div>
+
+        <button>
+            <a href="index.html">Voltar</a>
+        </button>
+    </section>
+    <footer>
+        <p>&copy; Mr.Programador</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

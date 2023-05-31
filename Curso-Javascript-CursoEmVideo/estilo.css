@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(71, 143, 244);
+    font: normal 15pt arial;
+
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu li {
+    padding: 5px;
+    font-size: 20pt;
+}
+
+.menu a,
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.ident {
+    text-align: left;
+}
+
+#cont {
+    text-align: left;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.404);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
